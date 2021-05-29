@@ -1,9 +1,9 @@
 package com.combeat.mdreader
 
 /**
- * Class which rolls one of the quints
+ * Class which rolls one of the quints with the random function
  */
-class QuintDice() {
+class QuintDice {
 	private val sides: Int = 6
 	private val rollNumber: Int = (1..sides).random()
 
@@ -11,7 +11,7 @@ class QuintDice() {
 	 * Returns the ID of the result string
 	 */
 	fun rollForQuintText(): Int {
-		var resultTextId: Int = 0
+		var resultTextId = 0
 
 		when (rollNumber) {
 			1 -> resultTextId = R.string.result_roll_ichika
@@ -29,7 +29,7 @@ class QuintDice() {
 	 * Returns the ID of the result image
 	 */
 	fun rollForQuintImage(): Int {
-		var resultDrawableId: Int = 0
+		var resultDrawableId = 0
 
 		when (rollNumber) {
 			1 -> resultDrawableId = R.drawable.image_ichika
