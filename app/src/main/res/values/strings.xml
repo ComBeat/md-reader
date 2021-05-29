@@ -3,4 +3,7 @@
     <string name="i_love_text">I love</string>
     <string name="the_quints_text">the Quints</string>
     <string name="image_of_the_quints_text">Image of the Quints</string>
+    <string name="roll_for_a_quint">Roll for a Quint</string>
+    <string name="result_roll_text"><![CDATA[All Quints <3]]></string>
+    <string name="result_roll_image">Result of the roll</string>
 </resources>
