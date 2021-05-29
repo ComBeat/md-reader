@@ -7,36 +7,41 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonRoll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="634dp"
         android:layout_marginBottom="49dp"
+        android:fontFamily="cursive"
         android:text="@string/roll_for_a_quint"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.664" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewRollResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="17dp"
-        android:text="@string/result_roll_text"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="cursive"
+        android:text="@string/result_roll_start"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRoll"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="412dp"
-        android:layout_height="572dp"
+        android:id="@+id/imageViewRollResult"
+        android:layout_width="411dp"
+        android:layout_height="488dp"
         android:contentDescription="@string/result_roll_image"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bg_quints" />
+        app:srcCompat="@drawable/image_quints_0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

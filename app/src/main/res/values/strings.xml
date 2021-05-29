@@ -4,6 +4,12 @@
     <string name="the_quints_text">the Quints</string>
     <string name="image_of_the_quints_text">Image of the Quints</string>
     <string name="roll_for_a_quint">Roll for a Quint</string>
-    <string name="result_roll_text"><![CDATA[All Quints <3]]></string>
+    <string name="result_roll_start">Which one are you going to roll?</string>
+    <string name="result_roll_ichika">一花 \u2764</string>
+    <string name="result_roll_nino">二乃 \u2764</string>
+    <string name="result_roll_miku">三玖 \u2764</string>
+    <string name="result_roll_yotsuba">四葉 \u2764</string>
+    <string name="result_roll_itsuki">五月 \u2764</string>
+    <string name="result_roll_nakanos">みんな \u2764</string>
     <string name="result_roll_image">Result of the roll</string>
 </resources>
