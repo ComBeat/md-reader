@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">MD Reader</string>
-    <string name="i_love_text">I love</string>
-    <string name="the_quints_text">the Quints</string>
     <string name="image_of_the_quints_text">Image of the Quints</string>
     <string name="roll_for_a_quint">Roll for a Quint</string>
     <string name="result_roll_start">Which one are you going to roll?</string>

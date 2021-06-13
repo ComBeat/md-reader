@@ -28,6 +28,7 @@
         android:layout_marginBottom="20dp"
         android:fontFamily="cursive"
         android:text="@string/result_roll_start"
+        android:textColor="@color/green_skirt"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/buttonRoll"
         app:layout_constraintEnd_toEndOf="parent"
