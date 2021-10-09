@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
 		recyclerView = binding.recyclerView
 		recyclerView.layoutManager = GridLayoutManager(this, 2)
-		recyclerView.adapter = MangaAdapter()
+		recyclerView.adapter = MangaAdapter(this)
 
 		//val rollButton: Button = binding.buttonRoll
 

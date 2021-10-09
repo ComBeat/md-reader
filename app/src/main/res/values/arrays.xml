@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="mangas">
+        <item>Fate Stay/Night</item>
+        <item>Fate/Zero</item>
+        <item>Steins;Gate</item>
+        <item>うみねこのなく頃に</item>
+        <item>ひぐらしのなく頃に</item>
+        <item>デスパ・レード</item>
         <item>五等分の花嫁</item>
+        <item>幼女戦記</item>
+        <item>空の境界</item>
+        <item>進撃の巨人</item>
+        <item>銀魂</item>
     </string-array>
 </resources>
